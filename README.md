@@ -4,6 +4,8 @@ Recently [Peter Sprygada announced](https://www.ansible.com/blog/ansible-network
 
 This repository contains working simple example that gathers `show clock` output from Cisco IOS switches. Following installation procedure is was verified working on Mac OS X 10.11.3. Ansible playbook was executed on Cisco C2960X, IOS 15.2(2)E1 switches.
 
+![Example usage](https://raw.githubusercontent.com/brona/ansible-cisco-ios-example/master/example.gif)
+
 ## Install Ansible Technology Preview
 If you have previously installed ansible you should uninstall it first - `sudo pip uninstall ansible`.
 
