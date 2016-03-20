@@ -1,8 +1,8 @@
-# Example usage of Ansible Network Module (Cisco IOS)
+# Example usage of Ansible Network Module on Cisco IOS
 
 Recently [Peter Sprygada announced](https://www.ansible.com/blog/ansible-network-technology-preview) technology preview of the new [Ansible Network Modules](http://docs.ansible.com/ansible/list_of_network_modules.html). Ansible 2.1 will bring support for basic tasks (`_command`, `_config`, `_template`)  for various network equpiment, most notably Cisco IOS, IOS-XR, NX-OS and Juniper Junos platforms.
 
-This repository contains working simple example that gathers `show clock` output from Cisco IOS switches. Following installation procedure is was verified working on Mac OS X 10.11.3. Ansible playbook was executed on Cisco C2960X, IOS 15.2(2)E1 switches.
+This repository contains working simple example that gathers `show clock` output from Cisco IOS switches. Following installation procedure was verified working on Mac OS X 10.11.3. Ansible playbook was executed on Cisco C2960X, IOS 15.2(2)E1 switches.
 
 ![Example usage](https://raw.githubusercontent.com/brona/ansible-cisco-ios-example/master/example.gif)
 
@@ -53,4 +53,4 @@ Example inventory file:
     Password: ...
     ...
 
-Playbook will prompt you for username and password that will be used to log in into configured devices. Gathered outputs will be printed on screen.
+Playbook will prompt you for username and password that will be used to log in to inventory devices. Gathered output will be printed on screen.
