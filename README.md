@@ -15,7 +15,7 @@ If you have previously installed ansible you should uninstall it first - `sudo p
     $ sudo make install
 
 ## Clone this repository to your working folder
-Copy of all filed will be downloaded to your mac/pc/whatever.
+Copy of all files in this repository will be downloaded to your mac/pc/whatever.
 
     $ git clone git@github.com:brona/ansible-cisco-ios-example.git
 
