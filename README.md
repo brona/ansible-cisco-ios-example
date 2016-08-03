@@ -6,13 +6,13 @@ This repository contains working simple example that gathers `show clock` output
 
 ![Example usage](https://raw.githubusercontent.com/brona/ansible-cisco-ios-example/master/example.gif)
 
-## Install Ansible Technology Preview
-If you have previously installed ansible you should uninstall it first - `sudo pip uninstall ansible`.
+## Install Ansible
 
-    $ curl -O http://releases.ansible.com/ansible-network/latest/ansible-2.0.1.0-0.2.network.tar.gz
-    $ tar -xvf ansible-2.0.1.0-0.2.network.tar.gz
-    $ cd ansible-2.0.1.0
-    $ sudo make install
+Ensure you are using Ansible v2.1 or above:
+
+    ansible-playbook --version
+    
+If not install the latest version via your OS packager, for more information see http://docs.ansible.com/ansible/intro_installation.html
 
 ## Clone this repository to your working folder
 Copy of all files in this repository will be downloaded to your mac/pc/whatever.
